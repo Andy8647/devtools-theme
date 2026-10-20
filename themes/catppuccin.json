@@ -1,0 +1,141 @@
+{
+  "name": "Catppuccin",
+  "fonts": {
+    "mono": "Maple Mono NF CN",
+    "monoSize": 14
+  },
+  "variants": {
+    "light": {
+      "neutral": {
+        "0": "#3d3f57",
+        "10": "#4c4f69",
+        "15": "#565973",
+        "20": "#5c5f77",
+        "25": "#6c6f85",
+        "30": "#7c7f93",
+        "35": "#8c8fa1",
+        "40": "#9ca0b0",
+        "50": "#acb0be",
+        "55": "#b4b8c6",
+        "60": "#bcc0cc",
+        "70": "#ccd0da",
+        "80": "#dce0e8",
+        "90": "#e6e9ef",
+        "94": "#e9ecf2",
+        "95": "#dfe3ec",
+        "98": "#e9ecf2",
+        "99": "#eff1f5",
+        "100": "#f7f8fa"
+      },
+      "accents": {
+        "primary": "#1e66f5",
+        "tertiary": "#8839ef",
+        "error": "#d20f39",
+        "yellow": "#df8e1d",
+        "green": "#40a02b",
+        "blue": "#1e66f5",
+        "cyan": "#04a5e5",
+        "orange": "#fe640b",
+        "purple": "#8839ef",
+        "pink": "#ea76cb",
+        "indigo": "#209fb5"
+      },
+      "surfaces": {
+        "surface": "#eff1f5",
+        "container": "#eff1f5",
+        "base": "#e6e9ef",
+        "baseContainer": "#e6e9ef",
+        "divider": "#d5dbe8"
+      },
+      "syntax": {
+        "variable": "#4c4f69",
+        "variable-special": "#179299",
+        "property": "#1e66f5",
+        "property-special": "#ea76cb",
+        "type": "#1e66f5",
+        "definition": "#1e66f5",
+        "builtin": "#209fb5",
+        "keyword": "#8839ef",
+        "number": "#fe640b",
+        "string": "#40a02b",
+        "string-special": "#40a02b",
+        "atom": "#fe640b",
+        "tag": "#d20f39",
+        "attribute": "#df8e1d",
+        "attribute-value": "#40a02b",
+        "comment": "#9ca0b0",
+        "meta": "#8c8fa1",
+        "deleted": "#d20f39",
+        "inserted": "#40a02b",
+        "pseudo-element": "#179299",
+        "subtle": "#7c7f93"
+      }
+    },
+    "dark": {
+      "neutral": {
+        "0": "#11111b",
+        "10": "#1e1e2e",
+        "15": "#181825",
+        "20": "#242434",
+        "25": "#2c2c3e",
+        "30": "#414259",
+        "35": "#4c4d63",
+        "40": "#585b70",
+        "50": "#6c7086",
+        "55": "#757a92",
+        "60": "#7f849c",
+        "70": "#9399b2",
+        "80": "#a6adc8",
+        "90": "#cdd6f4",
+        "94": "#d5dbf5",
+        "95": "#dce1f6",
+        "98": "#e4e9f8",
+        "99": "#e6e9ef",
+        "100": "#eff1f5"
+      },
+      "accents": {
+        "primary": "#89b4fa",
+        "tertiary": "#cba6f7",
+        "error": "#f38ba8",
+        "yellow": "#f9e2af",
+        "green": "#a6e3a1",
+        "blue": "#89b4fa",
+        "cyan": "#89dceb",
+        "orange": "#fab387",
+        "purple": "#cba6f7",
+        "pink": "#f5c2e7",
+        "indigo": "#74c7ec"
+      },
+      "surfaces": {
+        "surface": "#1e1e2e",
+        "container": "#181825",
+        "base": "#2c2c3e",
+        "baseContainer": "#181825",
+        "divider": "#3b3c50"
+      },
+      "syntax": {
+        "variable": "#cdd6f4",
+        "variable-special": "#94e2d5",
+        "property": "#89b4fa",
+        "property-special": "#f5c2e7",
+        "type": "#89b4fa",
+        "definition": "#89b4fa",
+        "builtin": "#74c7ec",
+        "keyword": "#cba6f7",
+        "number": "#fab387",
+        "string": "#a6e3a1",
+        "string-special": "#a6e3a1",
+        "atom": "#fab387",
+        "tag": "#f38ba8",
+        "attribute": "#f9e2af",
+        "attribute-value": "#a6e3a1",
+        "comment": "#6c7086",
+        "meta": "#7f849c",
+        "deleted": "#f38ba8",
+        "inserted": "#a6e3a1",
+        "pseudo-element": "#94e2d5",
+        "subtle": "#9399b2"
+      }
+    }
+  }
+}

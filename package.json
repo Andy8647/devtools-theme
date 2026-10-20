@@ -1,0 +1,14 @@
+{
+  "name": "devtools-theme",
+  "version": "0.1.0",
+  "description": "Theme Chrome DevTools by building and recolouring the frontend your browser actually ships",
+  "type": "module",
+  "bin": {"dtfe": "bin/dtfe.mjs"},
+  "engines": {"node": ">=18"},
+  "files": ["bin", "lib", "themes", "README.md"],
+  "license": "MIT",
+  "scripts": {
+    "doctor": "node bin/dtfe.mjs doctor",
+    "render": "node bin/dtfe.mjs render catppuccin"
+  }
+}

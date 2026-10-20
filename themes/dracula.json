@@ -1,0 +1,99 @@
+{
+  "name": "Dracula",
+  "fonts": {
+    "mono": "Maple Mono NF CN",
+    "monoSize": 14
+  },
+  "variants": {
+    "dark": {
+      "neutral": {
+        "0": "#191a21",
+        "10": "#282a36",
+        "15": "#21222c",
+        "20": "#2b2e3b",
+        "25": "#343746",
+        "30": "#44475a",
+        "35": "#4d5066",
+        "40": "#565a72",
+        "50": "#6272a4",
+        "55": "#6b76a8",
+        "60": "#7a84b0",
+        "70": "#9aa3c4",
+        "80": "#bdc1d6",
+        "90": "#f8f8f2",
+        "95": "#fbfbf8",
+        "99": "#ffffff",
+        "100": "#ffffff"
+      },
+      "accents": {
+        "primary": "#bd93f9",
+        "tertiary": "#ff79c6",
+        "error": "#ff5555",
+        "yellow": "#f1fa8c",
+        "green": "#50fa7b",
+        "blue": "#8be9fd",
+        "cyan": "#8be9fd",
+        "orange": "#ffb86c",
+        "purple": "#bd93f9",
+        "pink": "#ff79c6",
+        "indigo": "#6272a4"
+      },
+      "syntax": {
+        "keyword": "#ff79c6",
+        "string": "#f1fa8c",
+        "number": "#bd93f9",
+        "comment": "#6272a4",
+        "tag": "#ff79c6",
+        "attribute": "#50fa7b",
+        "property": "#8be9fd"
+      },
+      "surfaces": {
+        "surface": "#282a36",
+        "container": "#21222c",
+        "base": "#343746",
+        "baseContainer": "#21222c",
+        "divider": "#44475a"
+      }
+    },
+    "light": {
+      "neutral": {
+        "0": "#111111",
+        "10": "#1f1f1f",
+        "15": "#2d2d2d",
+        "20": "#3a3a3a",
+        "25": "#4a4a4a",
+        "30": "#5a5a5a",
+        "35": "#6c664b",
+        "40": "#7c7660",
+        "50": "#a8a390",
+        "60": "#bcb7a4",
+        "70": "#d4cebb",
+        "80": "#ded8c4",
+        "90": "#efe9d6",
+        "95": "#f5f0e0",
+        "99": "#fffbeb",
+        "100": "#ffffff"
+      },
+      "accents": {
+        "primary": "#644ac9",
+        "tertiary": "#a3144d",
+        "error": "#cb3a2a",
+        "yellow": "#846e15",
+        "green": "#14710a",
+        "blue": "#036a96",
+        "cyan": "#036a96",
+        "orange": "#a34d14",
+        "purple": "#644ac9",
+        "pink": "#a3144d",
+        "indigo": "#036a96"
+      },
+      "surfaces": {
+        "surface": "#fffbeb",
+        "container": "#fffbeb",
+        "base": "#f5f0e0",
+        "baseContainer": "#f5f0e0",
+        "divider": "#ded8c4"
+      }
+    }
+  }
+}
