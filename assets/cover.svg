@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <!-- devtools-theme cover — catppuccin mocha. Rendered to assets/cover.png (1280×640 @2x). -->
+  <rect width="1280" height="640" fill="#11111b"/>
+
+  <!-- Left: icon, name, pitch, bullets, command -->
+  <g>
+    <!-- the </> icon, simplified -->
+    <rect x="72" y="56" width="76" height="76" rx="18" fill="#1e1e2e" stroke="#b4befe" stroke-width="1.6"/>
+    <g transform="translate(110 94)" font-family="Maple Mono NF CN, Maple Mono NF, Menlo, monospace"
+       font-size="30" font-weight="700" fill="#cdd6f4" text-anchor="middle">
+      <text y="10">&lt;/&gt;</text>
+    </g>
+  </g>
+
+  <g font-family="Maple Mono NF CN, Maple Mono NF, Menlo, monospace">
+    <text x="72" y="206" font-size="46" font-weight="700" fill="#cdd6f4">devtools-theme</text>
+    <rect x="74" y="228" width="64" height="5" rx="2.5" fill="#89dceb"/>
+
+    <text x="72" y="288" font-size="21" fill="#cdd6f4">Theme Chrome DevTools by</text>
+    <text x="72" y="318" font-size="21" fill="#cdd6f4">building the frontend it ships</text>
+
+    <g font-size="16.5" fill="#a6adc8">
+      <text x="72" y="382"><tspan fill="#89dceb">▸</tspan>  any palette: ~24 colours in</text>
+      <text x="72" y="412"><tspan fill="#a6e3a1">✓</tspan>  exact Chromium commit</text>
+      <text x="72" y="442"><tspan fill="#f38ba8">✗</tspan>  no extension API needed</text>
+      <text x="72" y="472"><tspan fill="#f9e2af">◐</tspan>  your own monospace font</text>
+    </g>
+
+    <rect x="72" y="516" width="404" height="44" rx="10" fill="#1e1e2e" stroke="#313244"/>
+    <text x="92" y="544" font-size="17" fill="#6c7086">$ <tspan fill="#cdd6f4">dtfe serve --theme catppuccin</tspan></text>
+  </g>
+
+  <!-- Right: DevTools window -->
+  <g>
+    <rect x="546" y="72" width="662" height="496" rx="14" fill="#1e1e2e" stroke="#313244" stroke-width="1.5"/>
+    <line x1="546" y1="114" x2="1208" y2="114" stroke="#313244" stroke-width="1.5"/>
+    <circle cx="574" cy="93" r="6" fill="#f38ba8"/>
+    <circle cx="596" cy="93" r="6" fill="#f9e2af"/>
+    <circle cx="618" cy="93" r="6" fill="#a6e3a1"/>
+    <text x="877" y="99" font-family="Maple Mono NF CN, Menlo, monospace" font-size="13"
+          fill="#6c7086" text-anchor="middle">devtools://devtools/bundled</text>
+
+    <!-- tab strip -->
+    <g font-family="Maple Mono NF CN, Menlo, monospace" font-size="15.5">
+      <text x="578" y="146" fill="#89b4fa">Elements</text>
+      <rect x="578" y="156" width="76" height="3" rx="1.5" fill="#89b4fa"/>
+      <text x="678" y="146" fill="#a6adc8">Console</text>
+      <text x="762" y="146" fill="#a6adc8">Sources</text>
+      <text x="846" y="146" fill="#a6adc8">Network</text>
+      <text x="936" y="146" fill="#a6adc8">Performance</text>
+    </g>
+    <line x1="546" y1="176" x2="1208" y2="176" stroke="#313244" stroke-width="1.5"/>
+
+    <!-- elements tree -->
+    <g font-family="Maple Mono NF CN, Menlo, monospace" font-size="15" xml:space="preserve">
+      <text x="576" y="208"><tspan fill="#f38ba8">&lt;html&gt;</tspan></text>
+      <text x="576" y="238"><tspan fill="#6c7086">▾</tspan> <tspan fill="#f38ba8">&lt;head&gt;&lt;/head&gt;</tspan></text>
+      <text x="576" y="268"><tspan fill="#6c7086">▾</tspan> <tspan fill="#f38ba8">&lt;body</tspan> <tspan fill="#f9e2af">class</tspan><tspan fill="#9399b2">=</tspan><tspan fill="#a6e3a1">"card"</tspan><tspan fill="#f38ba8">&gt;</tspan></text>
+      <text x="600" y="296"><tspan fill="#f38ba8">&lt;h1&gt;</tspan><tspan fill="#cdd6f4">catppuccin devtools</tspan><tspan fill="#f38ba8">&lt;/h1&gt;</tspan></text>
+      <text x="600" y="324"><tspan fill="#f38ba8">&lt;p&gt;</tspan><tspan fill="#cdd6f4">any palette, one JSON</tspan><tspan fill="#f38ba8">&lt;/p&gt;</tspan></text>
+      <text x="576" y="352"><tspan fill="#f38ba8">&lt;/body&gt;</tspan></text>
+      <text x="576" y="380"><tspan fill="#f38ba8">&lt;/html&gt;</tspan></text>
+    </g>
+
+    <!-- divider + styles pane -->
+    <line x1="902" y1="192" x2="902" y2="548" stroke="#313244" stroke-width="1.5"/>
+    <g font-family="Maple Mono NF CN, Menlo, monospace" font-size="14.5" xml:space="preserve">
+      <text x="926" y="208" fill="#89b4fa">Styles</text>
+      <text x="1002" y="208" fill="#6c7086">Computed</text>
+
+      <text x="926" y="248" fill="#9399b2">.</text><text x="936" y="248" fill="#f9e2af">card</text><text x="976" y="248" fill="#9399b2"> {</text>
+      <text x="944" y="276"><tspan fill="#89b4fa">padding</tspan><tspan fill="#9399b2">: </tspan><tspan fill="#fab387">16px</tspan><tspan fill="#9399b2">;</tspan></text>
+      <text x="944" y="304"><tspan fill="#89b4fa">border</tspan><tspan fill="#9399b2">: </tspan><tspan fill="#fab387">1px</tspan><tspan fill="#cdd6f4"> solid </tspan><tspan fill="#a6e3a1">#45475a</tspan><tspan fill="#9399b2">;</tspan></text>
+      <text x="944" y="332"><tspan fill="#89b4fa">background</tspan><tspan fill="#9399b2">: </tspan><tspan fill="#a6e3a1">#1e1e2e</tspan><tspan fill="#9399b2">;</tspan></text>
+      <text x="926" y="360" fill="#9399b2">}</text>
+
+      <text x="926" y="404" fill="#9399b2">:root {</text>
+      <text x="944" y="432"><tspan fill="#cba6f7">--sys-color-primary</tspan><tspan fill="#9399b2">: </tspan><tspan fill="#a6e3a1">#89b4fa</tspan><tspan fill="#9399b2">;</tspan></text>
+      <text x="944" y="460"><tspan fill="#cba6f7">--monospace-font-size</tspan><tspan fill="#9399b2">: </tspan><tspan fill="#fab387">14px</tspan><tspan fill="#9399b2">;</tspan></text>
+      <text x="926" y="488" fill="#9399b2">}</text>
+    </g>
+
+    <!-- console strip -->
+    <line x1="546" y1="512" x2="1208" y2="512" stroke="#313244" stroke-width="1.5"/>
+    <g font-family="Maple Mono NF CN, Menlo, monospace" font-size="14.5" xml:space="preserve">
+      <text x="576" y="540" fill="#6c7086">&gt;</text>
+      <text x="592" y="540" fill="#a6e3a1">theme loaded</text>
+      <text x="712" y="540" fill="#6c7086">· chrome 155 · catppuccin · latency 0ms</text>
+    </g>
+  </g>
+</svg>
